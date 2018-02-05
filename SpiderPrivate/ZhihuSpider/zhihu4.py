@@ -111,6 +111,6 @@ if __name__ == '__main__':
     if isLogin():
         print('您已经登录')
     else:
-        account = input('输入账号：')
-        secret = input('输入密码：')
+        account = input('输入您的账号：')
+        secret = input('输入您的密码：')
         login(account, secret)
